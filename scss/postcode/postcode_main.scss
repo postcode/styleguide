@@ -96,7 +96,7 @@ small{
   margin: 40px 0px 20px 0px;
 }
 
-/* unvisited link */
+/* Links */
 a:link {
     color: $postcodeblue;
 }
@@ -134,4 +134,14 @@ a:active {
 }
 .drk a:active {
     color: $typography;
+}
+
+/* Buttons */
+.button{
+  color: $btntext;
+  font-family: 'Montserrat', Arial, sans-serif;  
+  margin: 0em 0em .5em 0em;
+}
+.button:visited{
+  color: $btntext;
 }
