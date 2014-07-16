@@ -2,6 +2,7 @@
 @import "compass";
 @import "colors";
 @import "typography";
+@import "errorpages";
 @import "footer";
 
 
@@ -66,13 +67,14 @@ a:active {
     color: #FFF;
   }
   a:visited {
-      colo: #FFF;
+    color: #FFF;
   }
   a:hover {
-      color: #FFF;
+    border-bottom: 1px solid #FFF;
+    color: #FFF;
   }
   a:active {
-      color: #FFF;
+    color: #FFF;
   }
 }
 .drk a:link {
