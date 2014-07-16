@@ -1,0 +1,54 @@
+/* Typgraphy Variables */
+$primary-font: 'Montserrat', Arial, sans-serif;
+$secondary-font: "Open Sans", Arial, sans-serif;
+
+/* Headers */
+h1 {
+  color: $typography;
+    font-family: $primary-font;
+    font-size: 38px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+h2{
+  color: $typography;
+    font-family: $primary-font;
+    font-size: 30px;
+}
+h3{
+  color: $typography;
+  font-family: $secondary-font;
+    font-size: 26px;
+}
+h4{
+  color: $typography;
+  font-family: $secondary-font;
+    font-size: 20px;
+}
+h5{
+  color: $typography;
+  font-family: $secondary-font;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+h6{
+  color: $typography;
+  font-family: $secondary-font;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+p {
+  color: $typography;
+    font-family: $secondary-font;
+    font-size: 14px;
+}
+small{
+  font-size: 9px;
+  padding: 5px 10px;
+}
+
+.heading{
+  border-bottom: 1px solid $darkgray;
+  padding: 0px 0px 10px 0px;
+  margin: 40px 0px 20px 0px;
+}

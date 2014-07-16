@@ -1,6 +1,7 @@
 @import "fonts";
 @import "compass";
 @import "colors";
+@import "typography";
 @import "footer";
 
 
@@ -46,63 +47,6 @@
   background: $yellow;
 }
 
-/* Typography */
-h1 {
-  color: $typography;
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 38px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-h2{
-  color: $typography;
-    font-family: 'Montserrat', Arial, sans-serif;
-    font-size: 30px;
-}
-h3{
-  color: $typography;
-  font-family: "Open Sans", Arial, sans-serif;
-    font-size: 26px;
-}
-h4{
-  color: $typography;
-  font-family: "Open Sans", Arial, sans-serif;
-    font-size: 20px;
-}
-h5{
-  color: $typography;
-  font-family: "Open Sans", Arial, sans-serif;
-    font-size: 16px;
-    text-transform: uppercase;
-}
-h6{
-  color: $typography;
-  font-family: "Open Sans", Arial, sans-serif;
-    font-size: 14px;
-    text-transform: uppercase;
-}
-p {
-  color: $typography;
-    font-family: "Open Sans", Arial, sans-serif;
-    font-size: 14px;
-}
-small{
-  font-size: 9px;
-  padding: 5px 10px;
-}
-
-.heading{
-  border-bottom: 1px solid #58585B;
-  padding: 0px 0px 10px 0px;
-  margin: 40px 0px 20px 0px;
-}
-
-/* Lists */
-ul .nodots{
-
-
-}
-
 /* Links */
 a:link {
     color: $postcodeblue;
@@ -117,17 +61,19 @@ a:hover {
 a:active {
     color: $postcodeblue;
 }
-.wht a:link {
-  color: #FFF;
-}
-.wht a:visited {
+.wht {
+  a:link {
     color: #FFF;
-}
-.wht a:hover {
-    color: #FFF;
-}
-.wht a:active {
-    color: #FFF;
+  }
+  a:visited {
+      colo: #FFF;
+  }
+  a:hover {
+      color: #FFF;
+  }
+  a:active {
+      color: #FFF;
+  }
 }
 .drk a:link {
   color: #58585B;
