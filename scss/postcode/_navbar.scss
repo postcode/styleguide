@@ -1,0 +1,26 @@
+$topbar-color: $promptlyblue;
+$secondbar-color: $lightgray;
+
+.top-bar{
+	background: $topbar-color;
+}
+.top-bar-section li:not(.has-form) a:not(.button) {
+background: $topbar-color;
+font-family: $secondary-font;
+
+}
+
+.second-bar{
+	background: $secondbar-color;
+	.top-bar-section li:not(.has-form) a:not(.button) {
+		background: $secondbar-color;
+		}
+	.name h1 a{
+		color: $darkgray;
+	}
+	ul li a{
+		color: $darkgray;
+	}
+
+}
+
