@@ -1,27 +1,39 @@
+/* header variables */
 $topbar-color: $promptlyblue;
 $secondbar-color: $lightgray;
 
+/* primary header */
 .top-bar{
 	background: $topbar-color;
 }
 .top-bar-section li:not(.has-form) a:not(.button) {
 background: $topbar-color;
 font-family: $secondary-font;
-
+}
+.top-bar-section ul li .active{
+background: red;
 }
 
+
+/* sub headers */
 .second-bar{
 	background: $secondbar-color;
 	.top-bar-section li:not(.has-form) a:not(.button) {
 		background: $secondbar-color;
 		}
+	.top-bar-section li:not(.has-form) a:hover {
+		background: #FFF;
+		color: $darkgray;
+		border-bottom: none;
+		}
+
 	.name h1 a{
 		color: $darkgray;
 	}
 	ul li a{
 		color: $darkgray;
-		margin-left: 10px;
 	}
+
 
 
 }
